@@ -7,7 +7,7 @@ public class GameResource
 	
 	public GameResource()
 	{
-		gWidth = 1280;
-		gHeight = 960;
+		gWidth = 1080;
+		gHeight = 1080;
 	}
 }
