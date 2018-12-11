@@ -1,9 +1,11 @@
 import java.awt.Color;
 import java.awt.Graphics;
 
-public class Cell extends GameResource
+public class Cell
 {
 	private Color c;
+	private int width, height;
+	private int x,y;
 	
 	public Cell(int width, int height, int x, int y)
 	{
@@ -32,6 +34,25 @@ public class Cell extends GameResource
 		return x;
 	}
 	
+	public void setWidth(int width)
+	{
+		this.width = width;
+	}
+	
+	public int getWidth()
+	{
+		return width;
+	}
+	
+	public void setHeight(int height)
+	{
+		this.height = height;
+	}
+	
+	public int getHeight()
+	{
+		return height;
+	}
 	public Color getColor()
 	{
 		return c;
